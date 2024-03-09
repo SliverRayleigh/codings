@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body{
+    /* background-color: rgb(44, 36, 36); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 800px;
+    background-color: black;
+    position: relative;
+    
+}
+
+.title h3{
+    color: rgb(133, 116, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 1em;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+    background-color:black;
+    /* padding: 80px auto; */
+    display: flex;
+    margin: 40px auto;
+}
+
+::placeholder{
+     color: red;
+}
+
+header form input{
+    display:block;
+    padding:10px 20%;
+    margin: 10px auto;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:gray;
+}
+
+.btn-log{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 32%;
+      margin-left: 70px;
+      border: 1px solid blue;
+      border-radius: 50px;
+      letter-spacing: .1px;
+      background-color: blue;
+      outline: none;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+
+    }
+
+.f-p{
+    text-decoration: none;
+    color: white;
+    letter-spacing: .2px;
+    margin: 20px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-btn{
+     /* position: absolute; */
+     /* bottom: 70px; */
+     /* right: 100px; */
+     /* left: 200px; */
+     
+     /* padding: 10px 50px; */
+      position: absolute;
+      bottom: 50px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 30%;
+      margin: 10px auto;
+      border: 1px solid blue;
+      border-radius: 50px;
+      letter-spacing: .1px;
+      background-color: blue;
+      outline: none;
+      color: white;
+      font-weight: bold;
+
+}
+
+
+
