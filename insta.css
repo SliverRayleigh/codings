@@ -6,102 +6,130 @@
 
 body{
     /* background-color: rgb(44, 36, 36); */
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container{
+.contanier{
     width: 500px;
     height: 800px;
-    background-color: black;
+    border: 1px solid red;
     position: relative;
+}
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    font-weight: 100;
     
 }
 
-.title h3{
-    color: rgb(133, 116, 116);
+img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid orange;
+    border-radius: 19px;
+    background: transparent;
+    display: flex;
+    margin: 50px auto;
+}
+
+.contanier-1{
+    width: 500px;
+    height: 200px;
+}
+
+.signup{
+    color: white;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 5px auto;
+    outline: none;
+    font-size: 1em;
+    font-weight:100px ;
+    line-height: 0px;
+    z-index: 1111;
+}
+
+.name{
+   position: absolute;
+   top: 10px;
+   right: 22%;
+   color: red;
+   margin: 5px 0 0 0 ;
+   color: gray;
+}
+
+.sec-name label{
+    position: absolute;
+    top: 72px;
+    right: 65%;
+    color: gray;
+}
+
+/* label:focus,label:visited{
+    position: absolute;
+    top: 0px;
+    background: transparent;
+} */
+
+.pri-btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0px;
-    font-size: 1em;
-}
-
-.logo img{
-    width: 60px;
-    height: 60px;
-    border-radius: 70px;
-    background-color:black;
-    /* padding: 80px auto; */
-    display: flex;
-    margin: 40px auto;
-}
-
-::placeholder{
-     color: red;
-}
-
-header form input{
-    display:block;
-    padding:10px 20%;
     margin: 10px auto;
-    outline: none;
-    border: 1px solid gray;
-    border-radius: 10px;
-    background-color:gray;
+    width: 300px;
+    height: 20px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
 }
 
-.btn-log{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 32%;
-      margin-left: 70px;
-      border: 1px solid blue;
-      border-radius: 50px;
-      letter-spacing: .1px;
-      background-color: blue;
-      outline: none;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-
-    }
-
-.f-p{
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
-    letter-spacing: .2px;
-    margin: 20px 0 0 0 ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 15px;
 }
 
 .sec-btn{
-     /* position: absolute; */
-     /* bottom: 70px; */
-     /* right: 100px; */
-     /* left: 200px; */
-     
-     /* padding: 10px 50px; */
-      position: absolute;
-      bottom: 50px;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 30%;
-      margin: 10px auto;
-      border: 1px solid blue;
-      border-radius: 50px;
-      letter-spacing: .1px;
-      background-color: blue;
-      outline: none;
-      color: white;
-      font-weight: bold;
-
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: 300px;
+    height: 20px;
+    padding: 10px 0;
+    border: 1px solid  rgb(13, 13, 243);
+    border-radius: 50px;
+    background-color: transparent;
+    color: rgb(13, 13, 243);
+    cursor: pointer;
+    font-size: 15px;
+    margin: 50px 0 0 0;
 }
 
+.meta img{
+    width: 10px;
+    height: 10px;
+}
 
 
