@@ -105,7 +105,7 @@ body{
     font-size: 15px;
 }
 
-.contanier a {
+.contanier-1> a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,13 +124,24 @@ body{
     border: 1px solid  rgb(13, 13, 243);
     border-radius: 50px;
     background-color: transparent;
-    color: rgb(13, 13, 243);
     cursor: pointer;
     font-size: 15px;
     margin: 50px 0 0 0;
 }
 
+ .contanier>a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-decoration: none;
+    color:blue;
+}
+
 .meta img{
+    position: absolute;
+    top: 10px;
+    left: 150px;
     width: 10px;
     height: 10px;
 }
@@ -203,7 +214,7 @@ body{
     /* border: 2px solid blue; */
 }
 
-button{
+#btn{
     width: 300px;
     height: 30px;
     border: 1px solid blue;
@@ -223,7 +234,7 @@ button{
     margin: 5px auto;
     padding: 5px;
     text-decoration: none;
-    width: 300px;
+    width: 280px;
     height: 30px;
     border: 1px solid blue;
     border-radius: 50px;
@@ -238,4 +249,95 @@ button{
       position: absolute;
       left: 30px;
       top: -18px;
+}
+
+/* Create new account page for mobile */
+
+.sub-container{
+    display: block;
+    width: 350px;
+    height: 730px;
+    border: 1px solid silver;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.sub-container img{
+    width: 20px;
+    height: 20px;
+    margin: 30px 0 0px 30px;
+}
+
+#content{
+    position: relative;
+    width: auto;
+    height:190px ;
+    padding: 5px  0 0 22px;
+}
+
+#content h2{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+#content h5{
+    line-height: 15px;
+    padding: 5px  0 15px  0;
+}
+
+#content input{
+    /* position: relative; */
+    width: 290px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1em;
+}
+
+#content label{
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    color: silver;
+}
+
+#content > small{
+    display: block;
+    color: silver;
+    padding: 10px 0 5px 0 ;
+    letter-spacing: .9px;
+}
+
+#next-btn{
+    margin: 5px  0 0 22px;
+}
+
+#next-btn > button{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: medium;
+    background-color: blue;
+    color: white;
+}
+
+#next-btn > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px 0 0 0 ;
+    width: 300px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    
 }
