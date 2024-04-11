@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    margin: 274px auto;
+    background-color: #f0f2f5;
+}
+
+.main{
+    position: relative;
+    min-height: 400px;
+    max-width: auto;
+    margin:0 0 0 270px ;
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;  
+}
+
+.text{
+    width: 450px;
+    letter-spacing: 0.3px;
+}
+
+.main .text h1{
+    font-size: 60px;
+    color: #0866ff;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.main .text h3{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #1c1e21;
+}
+
+.login{
+    position: absolute;
+    background-color: white;
+    top:-70px;
+    left: 450px;
+    display:block;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 310px;
+    width: 410px;
+    padding: 20px 10px;
+    margin: 5px 0 0 60px;
+    border-radius: px;
+}
+
+.login .value input{
+    font-size: 15px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin:6px;
+    padding: 10px;
+    outline:none;
+    /* outline-color: #0866ff;\ */
+}
+
+.value,
+.log-btn,
+.account-btn{
+    margin-left: 32px;
+}
+
+.log-btn button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #0866ff;
+    background-color: #0866ff;
+    margin:10px 0 0 5px ; 
+}
+
+.log-btn a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #0866ff;
+    margin-top: 15px;
+    margin-right: 35px;
+    padding: 0 0 20px 0;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.account-btn{
+    margin-top: 30px;
+
+}
+
+.account-btn a{
+    max-width: 140px;
+    text-decoration: none;
+    color:white;
+    background-color: green;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 10px 0  0 93px;
+    padding: 12px;
+    font-size: small;
+    font-weight: bolder;
+
+}
