@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    position: relative;
+}
+
+.x-img{
+    display: flex;
+    margin-top: 134px;
+    margin-bottom: 134px;
+    
+}
+
+.x-img >img{
+    width: 764px;
+    height: 332px;
+    padding-left: 100px;
+}
+
+.contant{
+    position: absolute;
+    top: -120px;
+    right: 0px;
+    margin: 16px;
+    width: 800px;
+    height: 800px;
+    /* border: 1px solid blue; */
+}
+
+.main{
+    position: absolute;
+    top: -60px;
+    right: 10px;
+    width: 500px;
+    height: 250px;
+    margin:  150px 111px 0 36px;
+    color: white;
+
+}
+
+.main >h1>h3{
+    font-style:  Roboto, Helvetica, Arial, sans-serif;
+}
+
+.main h1{
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+
+.main h3{
+    font-size: 35px;
+
+}
+
+.login{
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid white; */
+    margin: 35px 0 0 0 ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    padding: 5px 0 0  0;
+}
+
+.btn button img{
+    padding: 3,npx 0 0 0;
+    width: 17px;
+    height:17px;
+}
+.btn button{
+    width: 100%;
+    height: 40px; 
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin:  0 0 10px 0;
+ }
+
+.hr{
+    margin-top: 7px;
+    margin:  0 0 15px 0;
+}
+
+span{
+    position: absolute;
+    background-color: black;
+    top: 280px;
+    left: 160px;
+}
+
+.CA{
+    background-color: #1d9bf0;
+}
+
+.CA a{
+    color: white;
+}
+
+.text{
+    width: 340px;
+    height: 30px;
+    font-size: small;
+}
+
+.text a{
+    text-decoration: none;
+    color:#1d9bf0;
+}
+
+.letter h3{
+    font-size: 18px;
+    margin: 68px 0 0 0 ;
+}
+
+.letter .sign {
+    width: 100%;
+    height: 40px; 
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin:  20px 0 0px 0;
+    background-color: transparent;
+    border: 1px solid #71767b;
+    color:#1d9bf0 ;
+}
